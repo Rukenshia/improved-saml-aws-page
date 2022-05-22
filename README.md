@@ -58,7 +58,7 @@ by typing "p" for production. You will then only see the "my-other-product-produ
 A dark and a light theme are available to you. By default, your system preferences will be used.
 You can switch themes by clicking on the sun/moon icon on the left side below the AWS logo.
 
-Your preferred theme will be stored in `localStorage.
+Your preferred theme will be stored in `localStorage`.
 
 ## Customization
 
