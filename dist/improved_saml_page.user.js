@@ -6,7 +6,7 @@
 // @author       Jan Christophersen
 // @homepage     https://github.com/Rukenshia/improved-saml-aws-page
 // @updateURL    https://raw.githubusercontent.com/Rukenshia/improved-saml-aws-page/main/dist/improved_saml_page.user.js
-// @downloadURL    https://raw.githubusercontent.com/Rukenshia/improved-saml-aws-page/main/dist/improved_saml_page.user.js
+// @downloadURL  https://raw.githubusercontent.com/Rukenshia/improved-saml-aws-page/main/dist/improved_saml_page.user.js
 // @match        https://signin.aws.amazon.com/saml
 // @run-at       document-end
 // @grant        none
