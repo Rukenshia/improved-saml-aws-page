@@ -108,6 +108,6 @@ To create a bundle, run `make bundle`. You can then import the generated `./dist
 
 Donations are not required to use this - if you enjoy using this script, consider buying me a coffee:
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/rukenshia)
 
 I'm also happy to take your contributions in terms of feedback and pull requests!
