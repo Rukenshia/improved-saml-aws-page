@@ -1,6 +1,6 @@
 # Improved AWS SAML Page
 
-This is a custom userscript that can be installed with [Tampermonkey] to improve the user experience for
+This is a custom userscript that can be installed with [Tampermonkey](https://www.tampermonkey.net) to improve the user experience for
 the default AWS SAML login page, especially when you are using a [multi account strategy](https://aws.amazon.com/organizations/getting-started/best-practices/?nc1=h_ls)
 and have access to a lot of AWS accounts and/or roles.
 
