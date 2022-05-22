@@ -572,7 +572,6 @@ function toggleTheme() {
 /** Signs in to an AWS Account **/
 function signIn(div) {
   window.pageElements.roleIndexElement.value = div.firstElementChild.value;
-  console.log(div.firstElementChild.value);
 
   document.getElementById('signin_button').click();
 }
