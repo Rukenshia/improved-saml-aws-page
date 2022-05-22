@@ -53,6 +53,13 @@ and you want to log in to "my-other-product-production", you first limit the res
 "my-other-product" by typing "ot". You can then immediately filter the account stage/environment
 by typing "p" for production. You will then only see the "my-other-product-production" account.
 
+### Theme
+
+A dark and a light theme are available to you. By default, your system preferences will be used.
+You can switch themes by clicking on the sun/moon icon on the left side below the AWS logo.
+
+Your preferred theme will be stored in `localStorage.
+
 ## Customization
 
 ### Account stage/environment order
