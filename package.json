@@ -1,0 +1,14 @@
+{
+  "name": "improved-aws-saml-page",
+  "version": "1.0.0",
+  "description": "Userscript to improve the UX of the AWS SAML Page",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Christophersen",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
