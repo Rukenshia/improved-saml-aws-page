@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Improved AWS SAML Page
 // @namespace    ~rukenshia
-// @version      1.0
+// @version      1.1
 // @description  Provides a better SAML Page for AWS
 // @author       Jan Christophersen
 // @homepage     https://github.com/Rukenshia/improved-saml-aws-page
@@ -85,7 +85,7 @@ const main = function () {
         );
 
         const accountTpl = `
-            <button class="account flex-grow rounded-md px-2 py-1 text-base hover:scale-110 transition-color transition-transform {{an_style}}" id="{{an}}" data-role-name="${roleName}" data-account-name="{{fn}}" onclick="signIn(this)" tabindex="0">
+            <button class="account flex-grow rounded-md px-2 py-1 text-base hover:scale-110 transition-color transition-transform {{an_style}}" id="{{an}}" data-role-name="${roleName}" data-account-name="{{fn}}" tabindex="0">
               <input type="hidden" value="{{ra}}" id="{{ra}}"/>
               {{an}}
             </button>
@@ -131,6 +131,10 @@ const main = function () {
         </div>
       `;
       parentElement.appendChild(groupElement);
+
+      groupElement.querySelectorAll('button').forEach((button) => {
+        button.addEventListener('click', () => signIn(button));
+      });
 
       groupSearchIndex.push(groupElement);
     });
